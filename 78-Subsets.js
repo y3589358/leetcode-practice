@@ -12,6 +12,9 @@
 /**
     Note:
     before recursive should be sort arr, if exsist 2' and 2'' only chose one when index > i
+    break and continue:
+    continue is stop current i loop, and continue i+1 loop
+    break is stop current all of i loop
  */
 var subsetsWithDup = function(nums) {
     const res = [];
